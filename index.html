@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Amy Bath House — baths, sauna, massage and traditional wellness treatments in Collingwood." />
+    <title>Amy Bath House | Collingwood</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Amy Bath House home">Amy <span>Bath House</span></a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><b>Menu</b></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#visit">Visit</a>
+        <a class="nav-book" href="tel:+61466213789">Book a visit</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <img src="images/front.webp" alt="Amy Bath House storefront in Collingwood" />
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Bathing &amp; wellness · Collingwood</p>
+          <h1>Make time to <em>soak</em>.</h1>
+          <p class="hero-text">A quiet place for warm water, restorative massage and an unhurried cup of tea.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="tel:+61466213789">Call to book <span>↗</span></a>
+            <a class="text-link" href="#services">View services <span>↓</span></a>
+          </div>
+        </div>
+        <div class="open-pill"><i></i> Open daily · 10am–10pm</div>
+      </section>
+
+      <section id="experience" class="intro section-wrap">
+        <p class="eyebrow gold">A bathhouse ritual</p>
+        <div class="intro-grid">
+          <h2>Slow down, <em>properly.</em></h2>
+          <div>
+            <p>At Amy Bath House, you can move through communal baths, private bathing, showers and sauna at your own pace. Add a traditional oil, milk or herbal massage for a deeper reset.</p>
+            <a class="underlined-link" href="tel:+61466213789">Speak with us about your visit <span>→</span></a>
+          </div>
+        </div>
+        <div class="image-pair">
+          <figure class="image-large"><img src="images/bath.webp" alt="Vichy shower room at Amy Bath House" /><figcaption>Vichy shower &amp; wet massage</figcaption></figure>
+          <figure class="image-small"><img src="images/launge.webp" alt="Tea drinking lounge at Amy Bath House" /><figcaption>Tea drinking lounge</figcaption></figure>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div><p class="eyebrow gold">Treatments &amp; bathing</p><h2>Choose your <em>ritual.</em></h2></div>
+            <p>All appointments are arranged by phone so we can help create the right visit for you.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card featured"><span class="service-number">01</span><h3>Communal bath<br />&amp; sauna</h3><p>A 60-minute circuit of heat and water.</p><div class="price"><strong>$100</strong><span>60 minutes</span></div><div class="special">4-session special <b>$200</b></div></article>
+            <article class="service-card"><span class="service-number">02</span><h3>Massage</h3><p>Traditional oil, milk or herbal massage.</p><ul><li><span>30 minutes</span><b>$50</b></li><li><span>45 minutes</span><b>$80</b></li><li><span>60 minutes</span><b>$100</b></li></ul></article>
+            <article class="service-card"><span class="service-number">03</span><h3>Specialised<br />treatments</h3><ul><li><span>Vichy massage · 30 min</span><b>$100</b></li><li><span>Face massage · 60 min</span><b>$100</b></li><li><span>Hair wash · 30 min</span><b>$50</b></li><li><span>Foot treatment with herbs · 30 min</span><b>$50</b></li><li><span>Tea in rest room · 30 min</span><b>$50</b></li></ul></article>
+          </div>
+          <p class="service-note">Communal bath and sauna access is included with a 60-minute massage.</p>
+        </div>
+      </section>
+
+      <section class="promotion section-wrap">
+        <div><p class="eyebrow gold">A little something ahead</p><h2>New rituals are <em>coming soon.</em></h2></div>
+        <p>We’re preparing a few special ways to make your next visit even more restorative. Check back soon or call us to hear what’s on the horizon.</p>
+        <div class="sun-mark" aria-hidden="true">☼</div>
+      </section>
+
+      <section id="visit" class="visit">
+        <div class="visit-image"><img src="images/front.webp" alt="Amy Bath House on Cromwell Street" /></div>
+        <div class="visit-copy">
+          <p class="eyebrow gold">Plan your visit</p>
+          <h2>Come in, <em>exhale.</em></h2>
+          <div class="visit-details">
+            <div><span>Hours</span><p>Monday – Sunday<br /><strong>10am – 10pm</strong></p></div>
+            <div><span>Find us</span><p>59 Cromwell Street<br />Collingwood VIC 3066</p></div>
+            <div><span>Bookings</span><a href="tel:+61466213789">0466 213 789</a></div>
+          </div>
+          <div class="visit-actions"><a class="button button-dark" href="tel:+61466213789">Call to book <span>↗</span></a><a class="underlined-link" target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=59+Cromwell+Street+Collingwood+VIC+3066">Get directions <span>↗</span></a></div>
+        </div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#top">Amy <span>Bath House</span></a><p>59 Cromwell Street, Collingwood VIC 3066</p><a href="tel:+61466213789">0466 213 789</a><p class="footer-note">© <span id="year"></span> Amy Bath House</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
