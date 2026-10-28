@@ -37,3 +37,61 @@
 .careers-copy .button{margin-top:15px}
 @media(max-width:1000px){.promotion{grid-template-columns:1fr;gap:34px}.promotion-content{grid-template-columns:1fr 1fr}.scrub-packages{gap:28px}.careers-inner{gap:7%}}
 @media(max-width:760px){.scrub-packages{grid-template-columns:1fr;gap:22px;margin-top:35px;padding:27px 0}.scrub-heading h3,.offer-card h3{font-size:1.9rem}.promotion-content{grid-template-columns:1fr;gap:15px}.offer-card{padding:23px 20px}.promotion-intro{padding-right:35px}.careers{padding:76px 0}.careers-inner{grid-template-columns:1fr;gap:28px}.careers h2{margin-bottom:5px}.careers-copy p{font-size:1rem}.special small{font-size:.68rem}}
+
+
+/* Refined price-list styling: match the existing pine, cream and gold treatment */
+.service-card{position:relative}
+.service-card h3{font-size:clamp(2rem,2.4vw,2.65rem);line-height:1.02}
+.service-card .price{border-top:1px solid var(--line);margin-top:auto;padding-top:24px;gap:14px;align-items:baseline;flex-wrap:wrap}
+.service-card .price strong{font-size:clamp(3.2rem,4vw,4.25rem);line-height:1;letter-spacing:-.07em}
+.service-card .price span{font-size:.75rem;letter-spacing:.13em}
+.service-card .special{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:14px;row-gap:8px;margin-top:22px;padding-top:17px;line-height:1.5}
+.service-card .special b{float:none;white-space:nowrap;font-family:Georgia,serif;font-size:1.35rem;color:var(--gold)}
+.service-card .special small{grid-column:1/-1;border-top:1px solid var(--line);margin-top:3px;padding-top:10px;font-size:.73rem;line-height:1.55;color:#c8d0c9}
+.service-card ul{margin-top:auto}
+.service-card li{align-items:baseline;padding:14px 0;font-size:.9rem}
+.service-card li b{font-family:Georgia,serif;font-size:1.12rem}
+.scrub-packages{grid-template-columns:.9fr 1fr;gap:clamp(30px,6vw,82px);margin-top:58px;padding:36px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.scrub-heading .eyebrow{margin-bottom:18px}
+.scrub-heading h3{font-size:clamp(2.4rem,4vw,3.7rem);line-height:.98;letter-spacing:-.06em}
+.scrub-heading p:last-child{max-width:350px;font-size:.98rem;line-height:1.65}
+.scrub-prices{border-top:1px solid var(--line)}
+.scrub-prices>div{padding:18px 0;align-items:baseline}
+.scrub-prices span{font-size:.9rem;letter-spacing:.06em}
+.scrub-prices strong{font-size:clamp(2rem,3vw,2.8rem);letter-spacing:-.05em}
+.promotion{grid-template-columns:.8fr 1.2fr;align-items:start;gap:clamp(30px,6vw,82px)}
+.promotion-heading h2{position:relative;z-index:1}
+.promotion-intro{font-size:1rem!important;line-height:1.7;color:#626a64}
+.promotion-content{gap:16px}
+.offer-card{background:var(--pine);color:var(--paper);padding:clamp(22px,2.5vw,32px);border-top:2px solid var(--gold);box-shadow:0 12px 30px rgba(23,28,27,.08)}
+.offer-label{color:var(--gold);letter-spacing:.16em}
+.offer-card h3{font-size:clamp(1.65rem,2.3vw,2.2rem);line-height:1.05;margin:18px 0 24px}
+.offer-row{border-top:1px solid var(--line);padding:17px 0}
+.offer-row strong{font-family:Georgia,serif;font-size:1.25rem;color:var(--paper)}
+.offer-row span,.offer-note{color:#c8d0c9}
+.offer-row>b{font-size:clamp(1.7rem,2.3vw,2.25rem);color:var(--gold)}
+.offer-note{font-size:.8rem;line-height:1.65}
+.group-price{border-top:1px solid var(--line)}
+.group-price strong{font-size:3.2rem;color:var(--gold)}
+.group-price span{color:#c8d0c9;font-size:.8rem}
+.time-list{border-top:1px solid var(--line)}
+.time-list li{border-bottom:1px solid var(--line);padding:10px 0;color:#e4e7e1;font-size:.84rem}
+.time-list li b{font-weight:400;color:var(--gold)}
+.booking-note{margin:22px 0 0;padding:16px 18px;border-left:2px solid var(--gold);background:rgba(30,48,45,.06);font-size:.9rem;line-height:1.65;color:#454d48}
+.booking-note strong{font-weight:700;color:var(--pine)}
+@media(max-width:1000px){.promotion{grid-template-columns:1fr;gap:32px}.promotion-content{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){
+  .service-card h3{font-size:2.2rem}
+  .service-card .price{padding-top:21px}
+  .service-card .price strong{font-size:3.6rem}
+  .service-card .special{margin-top:18px}
+  .scrub-packages{grid-template-columns:1fr;gap:24px;margin-top:38px;padding:29px 0}
+  .scrub-heading h3{font-size:2.8rem}
+  .scrub-prices>div{padding:15px 0}
+  .scrub-prices strong{font-size:2.2rem}
+  .promotion-content{grid-template-columns:1fr;gap:16px}
+  .offer-card{padding:25px 23px}
+  .offer-card h3{font-size:2rem}
+  .offer-row>b{font-size:2rem}
+  .booking-note{margin-top:20px;padding:14px 15px;font-size:.84rem}
+}
