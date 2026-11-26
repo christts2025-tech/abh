@@ -109,3 +109,24 @@
 .parking-bays img{aspect-ratio:4/3}
 .parking-photo figcaption{margin-top:12px;font-size:.68rem;line-height:1.5;letter-spacing:.1em;text-transform:uppercase;color:#626a64}
 @media(max-width:760px){.parking{padding-top:76px;padding-bottom:78px;grid-template-columns:1fr;gap:30px}.parking-heading h2{font-size:clamp(3.1rem,13vw,4.5rem);margin-bottom:20px}.parking-heading>p:last-child{font-size:1rem}.parking-photos{gap:12px}.parking-photo figcaption{font-size:.57rem;letter-spacing:.06em}}
+
+/* Signature bath and sauna packages lead the services price list */
+.bath-menu{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:38px 0 20px}
+.bath-menu-heading{display:grid;grid-template-columns:.9fr 1.2fr .8fr;gap:28px;align-items:end;margin-bottom:31px}
+.bath-menu-heading .service-number{color:var(--gold);font-size:.72rem;letter-spacing:.13em}
+.bath-menu-heading h3,.additional-heading h3{font-family:Georgia,serif;font-size:clamp(2.2rem,4.2vw,4.2rem);font-weight:400;letter-spacing:-.06em;line-height:.98;margin:0}
+.bath-menu-heading p,.additional-heading>p:last-child{margin:0;color:#c8d0c9;font-size:.92rem;line-height:1.65}
+.bath-package-list{border-top:1px solid var(--line)}
+.bath-package{display:grid;grid-template-columns:125px 1fr auto;gap:24px;align-items:center;padding:23px 5px;border-bottom:1px solid var(--line)}
+.package-time{font-family:Georgia,serif;font-size:2.35rem;line-height:1;color:var(--gold);letter-spacing:-.06em;white-space:nowrap}
+.package-time span{display:block;margin-top:7px;font: bold .64rem Arial,Helvetica,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#c8d0c9}
+.package-detail h4{font-family:Georgia,serif;font-size:1.45rem;line-height:1.1;font-weight:400;margin:0 0 7px;letter-spacing:-.03em}
+.package-detail p{margin:0;color:#d7dbd7;font-size:.9rem;line-height:1.55}
+.package-detail small{display:block;margin-top:5px;color:#c8d0c9;font-size:.75rem}
+.package-price{font-family:Georgia,serif;font-size:2.6rem;line-height:1;color:var(--gold);font-weight:400;letter-spacing:-.05em;white-space:nowrap}
+.additional-services{margin-top:72px}
+.additional-heading{display:grid;grid-template-columns:.7fr 1.2fr .9fr;gap:28px;align-items:end;margin-bottom:30px}
+.additional-heading .eyebrow{margin:0;color:var(--gold)}
+.add-on-grid{grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.add-on-grid .service-card{min-height:320px}
+@media(max-width:760px){.bath-menu{padding:28px 0 12px}.bath-menu-heading,.additional-heading{grid-template-columns:1fr;gap:12px;margin-bottom:23px}.bath-menu-heading h3,.additional-heading h3{font-size:2.7rem}.bath-menu-heading p,.additional-heading>p:last-child{max-width:360px}.bath-package{grid-template-columns:78px 1fr;gap:13px;padding:20px 0;align-items:start}.package-time{font-size:1.9rem}.package-time span{font-size:.56rem}.package-detail h4{font-size:1.25rem}.package-detail p{font-size:.82rem}.package-detail small{font-size:.71rem}.package-price{grid-column:2;grid-row:1;justify-self:end;font-size:1.9rem}.package-detail{grid-column:1/-1;grid-row:2}.additional-services{margin-top:49px}.add-on-grid{display:block}.add-on-grid .service-card{min-height:0}}
